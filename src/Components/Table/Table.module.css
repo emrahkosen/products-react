@@ -1,0 +1,41 @@
+.component {
+  width: 100%;
+  height: 100%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  user-select: none;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #365858;
+  color: white;
+}
+.row {
+  cursor: pointer;
+}
+.row:hover {
+  background-color: #818f8f;
+}
+
+.collomtitle {
+  display: flex;
+  justify-content: space-between;
+}

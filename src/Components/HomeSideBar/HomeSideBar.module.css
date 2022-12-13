@@ -1,0 +1,38 @@
+.homesidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+  width: 55px;
+  min-width: 55px;
+  align-items: center;
+  margin: 5px;
+
+  border: 3px solid;
+  border-radius: 5px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(rgb(125, 133, 130), rgb(74, 72, 77));
+
+  user-select: none;
+}
+
+.homesidebar:hover {
+  width: 110px;
+  align-items: flex-start;
+  padding-left: 4px;
+}
+
+.messagebox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.messagebox:hover {
+  color: rgb(238, 245, 242);
+  cursor: pointer;
+}
+.messagebox:active {
+  color: rgb(88, 92, 90);
+}

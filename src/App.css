@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(223, 240, 234);
+}
+
+a:visited {
+  color: rgb(16, 17, 16);
+}
+
+a:hover {
+  color: rgb(224, 235, 231);
+}
+
+head body {
+  width: 100vw;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  background-color: blue;
+}
